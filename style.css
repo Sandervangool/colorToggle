@@ -1,0 +1,38 @@
+:root{
+  --main-color: white;
+}
+/* variable background color */
+.body {
+  background:var(--main-color);
+}
+/* Dropdown Button */
+
+.hamburger {
+    width: 60px;
+
+}
+
+.dropdown{
+  width: 60px;
+  position: absolute;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.ul {
+  list-style-type: none;
+}
+.dropdown-content a{
+ 
+    color: black;
+    padding: 12px 16px;
+    margin: 10px 10px;
+    text-decoration: none;
+    display: block;
+}
+  
+  /* dropdown menu hover */
+.dropdown:hover .dropdown-content {display: block;}
